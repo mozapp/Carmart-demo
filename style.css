@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+header{
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+}
+
+.navbar-brand, .text-primary{
+    color: #0a58ca !important;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+.btn-primary{
+    background-color: #0a58ca !important;
+    border: none;
+}
+.nav-link:hover{
+    color: #0a58ca;
+}
+p{
+    font-size: 18px;
+}
+.btn-primary:hover{
+    background-color: #257dfd !important;
+}
+.blue-bg{
+    background-color: #0a58ca !important;
+    color: #fff;
+}
+.blue-bg1:hover{
+    background-color: #0a58ca !important;
+    color: #fff;
+}
+
+.text-primary{
+    color: #0a58ca;
+}
+
+.icons{
+    height: 32px;
+    width: 32px;
+    margin-bottom: 16px;
+    color: #0a58ca;
+    background-color: #f2f2f2;
+    padding: 6px;
+}
+
+.blue-bg2{
+    background-color: #f3f708 !important;
+    color: #fff;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    border: none !important;
+    background-color: #0a58ca !important;
+    color: #fff !important;
+}
+
+.nav-tabs{
+    border: none !important;
+}
+
+.accordion-button{
+    height: 40px;
+}
+
+.bg-color{
+    height: 10vh;
+    background-color: #0a58ca;   
+}
+
+.ourProduct div, .ourFeatures div{
+    border-bottom: 5px solid #0b2957 !important;
+    padding-top: 5px !important;
+    width: 30px !important;
+    margin: 0 auto !important;
+}
+
+.zoom{
+    transition: all 0.3s;
+}
+.zoom:hover{
+    transform: scale(1.15);
+}
